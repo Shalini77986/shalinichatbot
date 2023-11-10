@@ -9,7 +9,7 @@ Click Below Picture To Open Chat Bot Owner Id...
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/unknownteam72/BikashChatBot#deploy-to-heroku)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Shalini77986/shalinichatbot#deploy-to-heroku)
 
 
 ## Deploy
