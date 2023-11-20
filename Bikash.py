@@ -56,15 +56,15 @@ async def start_(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "➕Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
-                ]
+                ],
                 [
                     InlineKeyboardButton(
                         "𓆰Ꮥʜꫝʟɪɴɪ⏤͟͟⛦⃕͜", url=f"https://t.me/shalini_shalu_69")
-                ]
+                ],
                 [
                     InlineKeyboardButton(
                         "Mᴜsɪᴄ Lᴏᴠᴇʀs", url=f"https://t.me/MUSIC_WORLD_SH")
-                ]
+                ],
                 
            ]
         ),
