@@ -57,27 +57,19 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(
                         "➕Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
-                
-           ]
-        ),
-    reply_markup=InlineKeyboardMarkup(
-            [
                 [
                     InlineKeyboardButton(
-                        "𓆩〭〬𝐈𝛕ᷟ͢𝚣⃪ꙴ𓆰Ꮥʜꫝʟɪɴɪ⏤͟͟⛦⃕͜⸙‌ٖٖ࿐™𓆪", url=f"https://t.me/Shalini_shalu_69")
+                        "𓆰Ꮥʜꫝʟɪɴɪ⏤͟͟⛦⃕͜", url=f"https://t.me/shalini_shalu_69")
+                ]
+                [
+                    InlineKeyboardButton(
+                        "Mᴜsɪᴄ Lᴏᴠᴇʀs", url=f"https://t.me/MUSIC_WORLD_SH")
                 ]
                 
            ]
         ),
-    reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "🎶Mᴜsɪᴄ Lᴏᴠᴇʀs🎶", url=f"https://t.me/MUSIC_WORLD_SH")
-                ]
-                
-           ]
-        )
+    )
+    
     
 @bot.on_message(filters.command(["/start", f"start@{BOT_USERNAME}", "/alive", ".alive", "#bikash", "#aditya"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
